@@ -1,12 +1,13 @@
 package gestorTareas;
 
+import java.time.LocalDate;
 import java.util.Date;
 
 public class Tarea {
 	
-	protected String titulo;
+	static protected String titulo;
 	protected String descripcion;
-	protected Date fecha;
+	protected LocalDate fecha;
 	public String getTitulo() {
 		return titulo;
 	}
@@ -19,15 +20,18 @@ public class Tarea {
 	public void setDescripcion(String descripcion) {
 		this.descripcion = descripcion;
 	}
-	public Date getFecha() {
+	public LocalDate getFecha() {
 		return fecha;
 	}
-	public void setFecha(Date fecha) {
+	public void setFecha(LocalDate fecha) {
 		this.fecha = fecha;
 	}
-
 	
-	public Tarea(String titulo, String descripcion, Date fecha) {
+	public static void asjfa() {
+		
+	}
+	
+	public Tarea(String titulo, String descripcion, LocalDate fecha) {
 		super();
 		this.titulo = titulo;
 		this.descripcion = descripcion;
@@ -35,7 +39,7 @@ public class Tarea {
 	}
 	
 	public String toString() {
-		return "Tarea [titulo=" + titulo + ", descripcion=" + descripcion + ", fecha=" + fecha + "]";
+		return "Tarea [titulo= " + titulo + ", descripcion= " + descripcion + ", fecha= " + fecha + "]";
 	}
 
 
