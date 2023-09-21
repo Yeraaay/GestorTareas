@@ -2,14 +2,18 @@ package gestorTareas;
 
 import java.time.LocalDate;
 
+
+
 public class Tarea {
 	
+
 	//Atributos
 	public static String titulo;
 	public static String descripcion;
 	public static LocalDate fecha;
 	
 	//Metodos (Setter y Getter)
+
 	public String getTitulo() {
 		return titulo;
 	}
@@ -29,8 +33,10 @@ public class Tarea {
 		this.fecha = fecha;
 	}
 	
+
 	
 	//Constructores
+
 	public Tarea(String titulo, String descripcion, LocalDate fecha) {
 		super();
 		Tarea.titulo = titulo;
@@ -41,6 +47,7 @@ public class Tarea {
 	//Metodo toString
 	public String toString() {
 		return "Tarea [Titulo = " + titulo + ", Descripcion = " + descripcion + ", Fecha = 0" + fecha + "]";
+
 	}
 
 
