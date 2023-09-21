@@ -2,8 +2,8 @@ package gestorTareas;
 
 import java.util.Date;
 
-public class Tarea {
-//asdasdhpasd
+public class tarea {
+	
 	protected String titulo;
 	protected String descripcion;
 	protected Date fecha;
