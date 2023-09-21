@@ -3,7 +3,7 @@ package gestorTareas;
 import java.util.Date;
 
 public class Tarea {
-
+//asdasdhpasd
 	protected String titulo;
 	protected String descripcion;
 	protected Date fecha;
