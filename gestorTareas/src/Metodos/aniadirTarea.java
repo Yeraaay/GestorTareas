@@ -12,13 +12,12 @@ public class aniadirTarea {
 
 	public static void aniadirTarea() {
 		System.out.println("introduce el titulo de la tarea :");
-		sc.nextLine();
 		String titulo=sc.nextLine();
 		System.out.println("introduce una descripcion de la tarea :");
-		sc.nextLine();
 		String descrip=sc.nextLine();
 		System.out.println("introduce la fecha en formato aaaa-mm-dd");
 		String fecha=sc.next();
+		sc.close();
 		String[]partes =fecha.split("-");
 		String anio=partes[0];
 		String mes = partes[1];
